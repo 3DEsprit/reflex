@@ -1,0 +1,8 @@
+{
+  "name": "reflex",
+  "version": "0.0.1",
+  "description": "Sunvox Chrome Extension to help present sunvox files",
+  "main": "index.js",
+  "author": "DBrown <vilesyn@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sunvox Reflex",
+  "description": "View and Listen to sunvox file from the browser",
+  "icons": { "128": "icon.png" },
+  "version": "0.0.1",
+  "browser_action": {
+    "default_title": "Reflex",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "utils.js",
+      "prefs.js",
+      "bg.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "background",
+    "storage",
+    "webRequest",
+    "https://**"
+  ],
+  "options_page": "options.html",
+  "options_ui": {
+    "chrome_style": true,
+    "page": "options.html"
+  }
+}

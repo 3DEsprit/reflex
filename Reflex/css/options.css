@@ -1,0 +1,18 @@
+body {
+  padding: 10px;
+  width: 400px;
+}
+
+.type {
+  text-align: right;
+}
+
+.options {
+  display: inline-block;
+  width: 50%;
+}
+
+.options {
+  margin-left: -5px;
+  vertical-align: top;
+}
